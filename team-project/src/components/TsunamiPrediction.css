@@ -1,0 +1,100 @@
+.tsunami-container {
+    padding: 40px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ced8e3; /* A light grayish-blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tsunami-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-input {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.result-card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #333; /* Dark text for readability */
+}
+
+.result-card.high-prob {
+    background-color: #fff0f0;
+    border: 1px solid #ffcccc;
+}
+
+.result-card.low-prob {
+    background-color: #f0fff0;
+    border: 1px solid #ccffcc;
+}
+
+.result-card h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #333; /* Ensure heading is dark */
+}
+
+.result-card p {
+    font-size: 18px;
+    margin: 0;
+    color: #333; /* Ensure paragraph is dark */
+}
+
+.error-card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: #fff0f0;
+    border: 1px solid #ffcccc;
+    color: #D8000C;
+}
+
+.error-card h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #D8000C; /* Ensure error heading is dark red */
+}
+
+.error-card p {
+    font-size: 16px;
+    margin: 0;
+    color: #D8000C; /* Ensure error paragraph is dark red */
+}
